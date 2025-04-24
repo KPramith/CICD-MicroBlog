@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faUser, faCalendar } from '@fortawesome/free-solid-svg-icons';
-import { usePosts } from '../context/PostContext';
+
 
 const PostCard = ({ post, onDelete }) => {
   const [isDeleting, setIsDeleting] = useState(false);
