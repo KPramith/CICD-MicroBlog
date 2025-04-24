@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import { getPosts, savePosts, addPost as addPostToStorage, deletePost as deletePostFromStorage } from '../utils/localStorage';
+import { getPosts,addPost as addPostToStorage, deletePost as deletePostFromStorage } from '../utils/localStorage';
 
 // Create context
 const PostContext = createContext();
