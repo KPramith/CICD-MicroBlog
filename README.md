@@ -106,6 +106,23 @@ Alternatively, you can use the Netlify CLI:
    netlify deploy --prod
    ```
 
+## Limitations
+
+- Posts are not persistent (they will be lost when the server restarts)
+- No user authentication or authorization
+- No post editing or reacting functionality
+
+## Extending the Project
+
+Here are some ideas to extend this project:
+
+- Add local storage to persist posts between server restarts
+- Implement post editing and reacting
+- Add simple authentication
+- Add categories or tags for posts
+- Implement a simple search functionality
+- Add Markdown support for post content
+
 ## Development
 
 ### Available Scripts
@@ -126,3 +143,7 @@ The app uses the following localStorage keys:
 - Design inspired by modern minimalist blog platforms
 - Icons provided by [FontAwesome](https://fontawesome.com/)
 - Deployed and hosted on [Netlify](https://www.netlify.com/)
+
+## License
+
+This project is MIT licensed.
