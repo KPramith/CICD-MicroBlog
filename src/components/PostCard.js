@@ -43,8 +43,8 @@ const PostCard = ({ post, onDelete }) => {
           </span>
         </p>
         <p className="post-excerpt">
-          {post.content.substring(0, 500)}
-          {post.content.length > 500 ? '...' : ''}
+          {post.content.substring(0, 400)}
+          {post.content.length > 400 ? '...' : ''}
         </p>
       </div>
     </article>
